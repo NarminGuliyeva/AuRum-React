@@ -1,0 +1,83 @@
+.ships-container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ships-section .title {
+    padding: 0px 0px;
+}
+.ship-card {
+    max-height: 410px;
+    position: relative;
+}
+.ships-section .ship-card {
+    margin-top: 40px;
+}
+.ship-card .img-border {
+    height: 100%;
+}
+.ship-card .img-border img{
+    height: 100%;
+    border-width: 25px;
+    object-fit: cover;
+    transition: 1s;
+}
+.ship-details .img-border img{
+    border-color: #28364B;
+}
+.ships-section .ship-card:hover .img-border img {
+    border-color: #28364B;
+}
+.ships-section .ship-card:hover .name-ship {
+    background-color: #CEBD88;
+}
+.name-ship {
+    min-width: 240px;
+    height: 65px;
+    background-color: #28364B;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name-ship h2 {
+    color: white;
+}
+.ship-container {
+    align-items: center;
+}
+.ship-details .ship-card {
+    margin: 0px 0px 20px;
+    max-height: 100%;
+}
+.ship-details .txt-ship {
+    height: 100%;
+}
+.ship-details .video-gallery-section {
+    padding: 50px 0px 0px;
+    background: none;
+}
+#shipDetails {
+    padding: 0px 0px 40px;
+}
+@media (max-width: 992px) {
+    .ship-card {
+        max-height: 300px;
+        margin-top: 30px;
+    }
+}
+@media (max-width: 768px) {
+    .ship-card {
+        width: 80%;
+        height: 480px;
+    }
+}
+@media (max-width: 575px) {
+    .ship-card {
+        width: 95%;
+    }
+    .name-ship {
+        min-width: 150px;
+    }
+}

@@ -1,0 +1,131 @@
+.contain {
+    width: 82%;
+    margin: auto;
+}
+.container {
+    width: 82%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+section {
+    width: 100%;
+    background-size: cover;
+    background-color: #CEBD8833;
+    padding: 40px 0px;
+}
+.bg-section {
+    background-image: url('/public/img/services-bg-2 1.png');
+}
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.col-sm-4{
+    width: 30%;
+    text-align: center;
+}
+.col-sm-6 {
+    width: 48%;
+}
+.col-sm-3 {
+    width: 22%;
+}
+.col {
+    width: 18%;
+}
+.none {
+    display: none;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
+li {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+    color: white;
+}
+button {
+    cursor: pointer;
+}
+hr {
+    height: 1px;
+    border: none;
+}
+img {
+    width: 100%;
+}
+.mySwiper {
+    width: 100%;
+    height: 100%;
+    --swiper-theme-color: #CEBD88;
+}
+section .mySwiper{
+    padding-bottom: 40px;
+}
+.mySwiper .col-sm-4 {
+    width: 100%;
+    margin: auto;
+}
+.mySwiper .col-sm-3 {
+    width: 100%;
+    margin: auto;
+}
+.mySwiper .col {
+    width: 100%;
+    margin: auto;
+}
+.swiper-button-next {
+    right: 8.5% !important;
+    color: white !important;
+}
+.swiper-button-prev {
+    left: 8.5% !important;
+    color: white !important;
+}
+.count {
+    font-size: 120px;
+    line-height: 162px;
+    font-weight: 400;
+    color: #CEBD8870;
+    font-family: 'Cinzel', serif;
+}
+.txt p{
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.heading2 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 500;
+}
+@media (max-width:1200px) {
+    .contain {
+        width: 86%;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .container .img, .text {
+        width: 100% !important;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .col-sm-4 {
+        width: 90%;
+        margin:0px auto 30px;
+    }
+    .col-sm-6 {
+        width: 100%;
+        margin: auto;
+    }
+}

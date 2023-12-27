@@ -1,0 +1,83 @@
+.services-main {
+    align-items: center;
+    padding: 20px 0px;
+}
+.services-section > :nth-child(even) {
+    flex-direction: row-reverse;
+}
+.services-main .img-ship-services{
+    max-width: 540px;
+}
+.txt-ship-services .title{
+    display: none;
+}
+.txt-ship-services p{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.services-main:first-child .title{
+    display: block;
+}
+.services-main:last-child .img-ship-services {
+    display: none;
+}
+.services-main:last-child .txt-ship-services {
+    width: 100%;
+}
+.services-about {
+    background-image: url('/public/img/countup-bg 2.png');
+    padding:0px 0px 30px;
+}
+.services-about-contain {
+    background-image: url('/public/img/Frame.png');
+    background-repeat: no-repeat;
+    background-position-x: 10%;
+}
+.services-about-contain > :nth-child(even) {
+    margin-left: 50%;
+}
+.services-about-content {
+    width: 50%;
+    max-height: fit-content;
+    display: flex;
+    align-items: center;
+}
+.services-about-content .count-ship {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services-about-content .txt-ship-services {
+    width: 80%;
+}
+.services-about-content span {
+    margin-right: 8px;
+}
+.services-about-content p {
+    line-height: 32px;
+}
+
+
+@media (max-width: 992px) {
+    .txt-ship-services p{
+        font-size: 14px;
+        line-height: 26px;
+    }
+}
+@media (max-width : 768px) {
+    .services-section > :nth-child(even) {
+        flex-direction: column;
+    }
+    .img-ship-services {
+        margin-top: 20px;
+    }
+    .services-about-content {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .services-about-contain > :nth-child(even) {
+        margin-left: 0%;
+    }
+}

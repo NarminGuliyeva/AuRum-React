@@ -1,0 +1,195 @@
+.whyUs .txt-whyus {
+    width: 46%;
+}
+.txt-whyus .txt {
+    margin: 10px 0px;
+}
+.img-whyus {
+    max-width: 530px;
+    /* width: 46%; */
+}
+.mission {
+    padding-top: 30px;
+    flex-direction: column;
+}
+.mission .card-mission {
+    max-width: 360px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    position: relative;
+}
+.card-mission h4 {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    margin: 10px 0px 5px;
+}
+.card-mission p {
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+    padding: 10px 20px;
+    text-align: center;
+}
+.card-mission .btn-more {
+    width: 140px;
+    height: 38px;
+    font-size: 12px;
+    margin: 5px 0px;
+}
+.card-mission span{
+    position: absolute;
+    bottom: -5%;
+    right: 6%;
+}
+.partners {
+    padding:20px 0px 0px;
+    background-image: url('/public/img/Rectangle 22.png');
+}
+#Partners {
+    background-image: none;
+}
+.partners .container {
+    height: 100%;
+    padding: 0;
+}
+.partners .mySwiper {
+    padding-bottom: 20px;
+}
+.partners .swiper-wrapper {
+    align-items: center;
+}
+.partners .col {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.partners .col img {
+    width: 60%;
+    height: 100%;
+}
+.ceo {
+    background-image: url('/public/img/Frame.png');
+    background-repeat: no-repeat;
+    background-position-x: 94%;
+    background-position-y: 60%;
+    background-size: 20%;
+    padding: 20px 0px;
+}
+.ceo .container {
+    justify-content: space-around;
+    align-items: center;
+}
+.ceo .img-ceo {
+    max-width: 440px;
+}
+.ceo .txt-ceo {
+    height: 100%;
+}
+.ceo .txt-ceo h2 {
+    margin:0px 0px 20px;
+}
+.certificate-section .title{
+    margin: auto;   
+}
+.certificate-section .container .certificate {
+    max-width: 280px;
+    max-height: fit-content;
+    position: relative;
+}
+.certificate-section .certificate .img-certificate {
+    height: 100%;
+    transform: scale(0.85);
+}
+.certificate-section .certificate .frame {
+    height: 100%;
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.team-section .team-card {
+    max-width: 265px;
+    text-align: left;
+}
+.team-section .team-card h3, h4{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.team-section .team-card h3 {
+    font-weight: 600 !important;
+}
+@media (max-width : 1400px) {
+    .whyUs .txt-whyus {
+        width: 50%;
+    }
+    .whyUs .title {
+        margin: 0px 0px;
+    }
+}
+@media (max-width: 1200px) {
+    .txt p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+}
+@media (max-width: 1024px) {
+    .img-whyus {
+        width: 48%;
+    }
+    .txt p {
+        line-height: 20px;
+    }
+    .img-whyus {
+        margin: 40px 0px 0px;
+    }
+}
+@media (max-width: 992px) {
+    .txt p {
+        font-size: 10px;
+        line-height: 18px;
+    }
+    .img-whyus {
+        margin: 50px 0px 0px;
+    }
+}
+@media (max-width: 768px) {
+    .img {
+        margin: auto;
+    }
+    .img-whyus {
+        margin-top: 20px;
+    }
+    .txt p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .partners .container {
+        flex-direction: row;
+    }
+    .partners .col img {
+        width: 30%;
+    }
+    .ceo {
+        background-position-y: 90%;
+        background-size: 50%;
+    }
+    .ceo .img-ceo img{
+        width: 100%;
+        /* margin: auto; */
+    }
+    .team-card {
+        justify-content: center;
+    }
+    
+}
+/* @media (max-width: 575px) {
+
+} */

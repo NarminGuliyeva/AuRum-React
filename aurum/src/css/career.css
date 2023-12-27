@@ -1,0 +1,200 @@
+.career-section {
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+#titlePage {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 600;
+}
+.career-section .row {
+    display: block;
+}
+.career-section .career {
+    width: 90%;
+    border-bottom: 1px solid #BEBDBD;
+    overflow: hidden;
+    margin: 30px 0px;
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 400;
+    position: relative;
+    transition: 2s;
+    transition: ease-in-out;
+}
+.career .main {
+    width: 100%;
+    height: 100%;
+}
+.btn-down {
+    position: absolute;
+    right: 5px;
+    font-size: 40px;
+    background: none;
+    border: none;
+}
+.btn-apply {
+    width: 240px;
+    height: 56px;
+    background: #28364B;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.career p {
+    line-height: 25px;
+}
+.heading2 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #28364B;
+}
+.career .info-career {
+    width: 50%;
+}
+.career .location-date {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 15px 0px;
+    color: #4C4B4D;
+}
+.career ul {
+    margin: 0px 0px 20px;
+}
+.career .work-info{
+    padding-left: 20px;
+}
+.career .work-info li {
+    list-style: disc;
+    color: #303031;
+}
+.career .personal-info li{
+    margin-top: 6px;
+}
+.career-section .inp::placeholder {
+    opacity: 0;
+}
+.apply-section {
+    background-image: url('/public/img/Frame.png');
+    background-repeat: no-repeat;
+    background-position-y: 40%;
+    background-size: 20%;
+    padding: 20px 0px;
+}
+.apply-section .apply-title {
+    width: 90%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #BEBDBD;
+}
+.apply-section form {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+.apply-section form div {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.apply-section form .file {
+    width: 100%;
+}
+.apply-section form label {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.apply-section .inp {
+    height: 50px;
+    border: 1px solid #EBEBEB;
+    background: #CEBD8838;
+    border-radius: 5px;
+    padding-left: 7px;
+}
+.apply-section form .file .inp {
+    height: 130px;
+}
+.apply-section form .btn-apply {
+    width: 184px;
+    margin: auto;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.contact-section .contact p span:first-child{
+    color: black;
+}
+.contact-section .apply-section {
+    background-image: none;
+    padding-bottom: 30px;
+}
+.contact-section .contact-apply {
+    width: 60%;
+}
+.contact-section .apply-title {
+    display: none;
+}
+.contact-section .apply-section form {
+    width: 100%;
+    padding-top: 0;
+}
+.contact-section form .file {
+    position: relative;
+}
+.contact-section form .file .inp{
+    padding-top: 10px;
+}
+.contact-section form .btn-apply {
+    width: 48%;
+    margin-right: 0;
+}
+.apply-section form .inp:focus {
+    outline: none;
+}
+@media (max-width: 1024px) {
+    .career .info-career {
+        width: 80%;
+    }
+    .career .location-date {
+        width: 50%;
+    }
+}
+@media (max-width: 768px) {
+    .apply-section form {
+        margin: auto;
+    }
+    .apply-section form div {
+        width: 100%;
+    }
+    .contact-section .contact-apply  {
+        width: 100%;
+    }
+    .contact-section .contact {
+        max-width: max-content;
+    }
+    .contact-section .contact p {
+        justify-content: center;
+    }
+}
+@media (max-width: 576px) {
+    .career .info-career {
+        width: 100%;
+    }
+    .career .location-date {
+        width: 80%;
+    }
+}
+@media (max-width: 480px) {
+    .career .heading2 {
+        line-height: 30px;
+    }
+    .career .location-date {
+        width: 85%;
+        font-size: 14px;
+    }
+}
